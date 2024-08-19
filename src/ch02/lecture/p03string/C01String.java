@@ -24,7 +24,7 @@ public class C01String {
 
         //역슬래시 예시
 //        String g = "작은 따옴표 \'";
-        System.out.println(g);
+//        System.out.println(g);
         String h ="다음 줄 \n표현";
         System.out.println(h);
         String i ="탭\t 표현";

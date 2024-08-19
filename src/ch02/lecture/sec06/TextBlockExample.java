@@ -15,9 +15,16 @@ public class TextBlockExample {
                 }
                 """;
 
+        String str3 = """
+                나는 자바를 \
+                학습합니다.
+                나는 자바 고수가 될거야
+                """;
+
         System.out.println(str1);
         System.out.println("------------------------");
         System.out.println(str2);
         System.out.println("------------------------");
+        System.out.println(str3);
     }
 }

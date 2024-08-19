@@ -9,5 +9,17 @@ public class C03Print {
         System.out.printf("형식 %10s%10s%n","abc","def");
         //왼쪽 정렬
         System.out.printf("형식 %-10s%-10s%n","abc","def");
+
+        //%d : 정수출력(byte, short, int, long)출력
+        System.out.printf("정수%d,%d%n", 345, 678);
+
+        //%f : 실수출력(float, double) 출력
+        System.out.printf("실수%f,%f%n",3.14, 9.1234);
+        System.out.printf("실수%10f,%10f%n",3.14, 9.1234);
+        System.out.printf("실수%-10f,%-10f%n",3.14, 9.1234);
+        //%0 남은 공간을 0으로 표현
+        System.out.printf("실수%010f,%010f%n",3.14, 9.1234);
+
+
     }
 }

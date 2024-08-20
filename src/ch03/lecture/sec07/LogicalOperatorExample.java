@@ -22,12 +22,12 @@ public class LogicalOperatorExample {
         //----------------------------------------
 
         int value = 6;
-        if((value%2 == 0) | (value %3 ==0))
+        if((value%2 == 0) ||(value %3 ==0))
         {
             System.out.println("2또는 3의 배수");
         }
 
-        boolean result = (value%2==0)|| (value%3==0);
+        boolean result = (value%2==0)||(value%3==0);
         if(result){
             System.out.println("2또는 3배수가 아니다");
         }

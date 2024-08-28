@@ -12,7 +12,7 @@ public class C01Constructor {
 }
 
 class MyClass01{
-    //필드
+    //필드(instance field || static field(class field))
 
     //생성자 constructor
     //객체가 처음 만들어 질 때 해야하는 일들 작성
@@ -25,5 +25,5 @@ class MyClass01{
         System.out.println("실행 코드들...");
     }
 
-    //메소드
+    //메소드(instance method || static method(class method))
 }
